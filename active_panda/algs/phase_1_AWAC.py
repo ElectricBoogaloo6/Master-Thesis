@@ -333,6 +333,7 @@ def main():
     P12_blind = [5, 4, 4, 6, 6]
     P12_visible = [5, 6, 6, 6, 5]
 
+
     participants = ['P12_blind', 'P12_visible']
     
     """

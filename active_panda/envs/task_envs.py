@@ -12,11 +12,6 @@ from panda_gym.pybullet import PyBullet
 
 
 
-from tasks.reach_with_obstacle_v0 import ReachWithObstacleV0Task
-from tasks.reach_with_obstacle_v1 import ReachWithObstacleV1Task
-from tasks.pick_and_place_with_obstacle_v0 import PickAndPlaceWithObstacleV0Task
-from tasks.push_with_obstacle_v0 import PushWithObstacleV0Task
-from tasks.push_with_obstacle_v1 import PushWithObstacleV1Task
 from tasks.phase_1_task_centre import Phase1TaskCentre
 from tasks.phase_1_task_left import Phase1TaskLeft
 from tasks.phase_1_task_right import Phase1TaskRight
