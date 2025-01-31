@@ -29,7 +29,6 @@ ACTIVE_PANDA_DIR = os.path.dirname(CURRENT_DIR)
 ENVS_DIR = os.path.join(ACTIVE_PANDA_DIR, 'envs')
 RESULTS_DIR = os.path.join(ACTIVE_PANDA_DIR, "Phase_1_results")
 sys.path.append(ENVS_DIR)
-from task_envs import ReachWithObstacleV0Env, ReachWithObstacleV1Env, PushWithObstacleV0Env, PushWithObstacleV1Env
 sys.path.append(PARENT_DIR + '/utils/')
 from utils_awac import ActionNormalizer, ResetWrapper, TimeFeatureWrapper, TimeLimitWrapper, reconstruct_state, save_results
 import core as core
